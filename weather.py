@@ -3,8 +3,8 @@ import json
 import urllib.request
 import os
 
-#The url with api key, location, and units set to imperial.
-serviceurl = 'http://api.openweathermap.org/data/2.5/weather?q=tucson&APPID=aa92c1aa4603864bffee098b5668a354&units=imperial'
+#The url without api key, location, and units set to imperial. Put your APIKEY where shown below
+serviceurl = 'http://api.openweathermap.org/data/2.5/weather?q=tucson&APPID=APIKEY&units=imperial'
 
 #Using string concatenation to make user input for location possible
 first_url = "http://api.openweathermap.org/data/2.5/weather?q="
