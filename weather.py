@@ -3,7 +3,7 @@ import json
 import urllib.request
 import os
 
-#The url without api key, with location, and with units set to imperial. Put your APIKEY where shown below
+#The url without api key and with units set to imperial. Put your APIKEY from openweathermap.org where shown below
 #Using string concatenation to make user input for location possible
 first_url = "http://api.openweathermap.org/data/2.5/weather?q="
 second_url = "&APPID=APIKEY&units=imperial"
