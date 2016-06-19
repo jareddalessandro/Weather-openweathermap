@@ -1,14 +1,12 @@
-#Uses openweathermap's API to give weather information, to change location change in url.
+#Uses openweathermap's API to give weather information.
 import json
 import urllib.request
 import os
 
-#The url without api key, location, and units set to imperial. Put your APIKEY where shown below
-serviceurl = 'http://api.openweathermap.org/data/2.5/weather?q=phoenix&APPID=APIKEY&units=imperial'
-
+#The url without api key, with location, and with units set to imperial. Put your APIKEY where shown below
 #Using string concatenation to make user input for location possible
 first_url = "http://api.openweathermap.org/data/2.5/weather?q="
-second_url = "&APPID=aa92c1aa4603864bffee098b5668a354&units=imperial"
+second_url = "&APPID=APIKEY&units=imperial"
 location = ""
 while True:
 	location = input("Enter city name: ")
